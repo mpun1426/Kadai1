@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>必須課題1 - Webエンジニア排出No.1プログラミングスクールで学習中</title>
+    <link rel="stylesheet" href="kadai1.css">
+    <link rel="icon" href="https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/home/success-stories/potepanda.jpg">
+  
+  </head>
+  
+  <body>
+    <header>
+      <div class="header_container">
+        <div class="potepan_logo">
+          <a href="https://camp.potepan.com/"><img class="minilogo" src="https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/header-logo.png.webp"></a>
+          <img class="ham" id="jsham" src="https://web-de-asobo.net/wp-content/uploads/2022/06/ham-menu-image01.png">
+        </div>
+          <ul class="header_menu" id="jsmenu">
+           <li><a href="https://camp.potepan.com/content"><span class="bold">CONTENT</span><br><span class="japanese">学習内容</span></a></li>
+           <li><a href="https://camp.potepan.com/interview"><span class="bold">INTERVIEW</span><br><span class="japanese">受講生の声</span></a></li>
+           <li><a href="https://camp.potepan.com/faq"><span class="bold">FAQ</span><br><span class="japanese">よくある質問</span></a></li>
+           <li><a href="https://camp.potepan.com/recruit"><span class="bold">RECRUIT</span><br><span class="japanese">採用企業様へ</span></a></li>
+           <li><a href="https://camp.potepan.com/download"><span class="bold">DOCUMENT</span><br><span class="japanese">資料請求</span></a></li>
+           <li><a class="orange_button" href="https://camp.potepan.com/contact">無料カウンセリング</a></li>
+         </ul>
+      </div>
+    </header>
+    
+    <main>
+      <section class="firstview">
+        <img class="spimg" src="https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/home/first-view/top-hero-sp.jpg.webp">
+        <div class="firstview_container">
+          <div class="firstview_content">
+            <div class="firstview_title">
+              <h2 class="font_size">最短5ヶ月間で<br>未経験からWebエンジニアへ
+              </h2>
+            </div>
+              <div class="firstview_image">
+              <img class="sizefirst" src="https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/home/first-view/100percent@2x.svg">
+              <img class="sizesecond" src="https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/home/first-view/no1@2x.svg">
+              <img class="sizethird" src="https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/home/first-view/refund@2x.svg">
+            </div>
+            <div class="firstview_button">
+              <a class="orange_button_big" href="https://camp.potepan.com/contact">無料カウンセリングはこちら</a>
+              <a class="white_button_big" href="https://camp.potepan.com/download">資料請求はこちら</a>
+            </div>
+          </div>
+          <div class="caution">
+            <p class="cautionlist">
+              ※1: ショッパーズアイ「プログラミングスクール10社を対象にしたサイト比較イメージ調査（2020 年 5 月 22 日～25 日）」より全国の22～49歳の男女691名へのインターネット調査
+            <br>
+              ※2: 29歳以下の転職サポート実施ユーザ（2021年7月~10月）
+            <br>
+              ※3: 返金の条件については<a class="caution" href="https://camp.potepan.com/terms">利用規約</a>をご参照ください
+            </p>
+          </div>
+        </div>
+      </section>
+      <div class="orangeback">
+        <section class="overview">
+          <video src="https://res.cloudinary.com/hqt02ldfz/video/upload/v1650946041/IntroductionMovie/PotepanCamp/movie_sxheh6.mp4" poster="https://res.cloudinary.com/hqt02ldfz/image/upload/v1650946026/IntroductionMovie/PotepanCamp/thumbnail_retspb.jpg" autoplay muted controls loop>
+          </video>
+          <div class="overview_text">
+            <h2 class="whatispotepan">POTEPAN CAMPとは</h2>
+            <p class="setsumei">ポテパンキャンプは、Web系開発現場で通用するスキルを身につけるための教育プログラムです。実践的でわかりやすいカリキュラムと適切な学習サポートで効率的に学習できる環境を用意しております。
+            </p>
+            <a class="gakushu" href="https://camp.potepan.com/content"><img src="https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/home/about/arrow-icon.svg"><span class="gakushu">学習内容はこちら</span></a>
+          </div>
+        </section>
+      </div>
+      <div class="yohaku">
+      </div>
+    </main>
+    <div class="fixed_banner" id="jsfixedbanner">
+      <a href="https://camp.potepan.com/contact"><img class="fixed_banner" src="https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/fixed-footer/counseling-button.png.webp">
+      </a>
+    </div>
+    <script>
+      function jsmenu() {
+        document.getElementById('jsmenu').classList.toggle('active');
+        document.getElementById('jsfixedbanner').classList.toggle('active');
+      }
+      document.getElementById('jsham').addEventListener('click', function () {
+        jsmenu();
+      } );
+    </script>
+  </body>
+</html>
